@@ -21,3 +21,10 @@ A collection of language servers, managed using Git Submodules.
 #+BEGIN_SRC bash
   git submodule update --remote
 #+END_SRC
+
+** Delete Submodule
+
+#+BEGIN_SRC bash
+  rm -rf .git/modules/<path-to-submodule>
+  git config --remove-section submodule.<path-to-submodule>.
+#+END_SRC
