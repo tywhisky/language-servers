@@ -1,0 +1,23 @@
+* Language-Servers
+
+A collection of language servers, managed using Git Submodules.
+
+* Usage
+
+** Clone the Repo
+
+#+BEGIN_SRC bash
+  git clone --recurse-submodules git@github.com:tywhisky/language-servers.git
+#+END_SRC
+
+** Compile the Servers
+
+#+BEGIN_SRC bash
+  ./build.sh
+#+END_SRC
+
+** Update
+
+#+BEGIN_SRC bash
+  git submodule update --remote
+#+END_SRC
