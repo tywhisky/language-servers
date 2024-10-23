@@ -1,0 +1,6 @@
+[submodule "elixir-ls"]
+	path = elixir-ls
+	url = git@github.com:elixir-lsp/elixir-ls.git
+[submodule "typescript-language-server"]
+	path = typescript-language-server
+	url = git@github.com:typescript-language-server/typescript-language-server.git
