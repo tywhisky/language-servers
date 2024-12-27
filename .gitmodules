@@ -4,3 +4,6 @@
 [submodule "typescript-language-server"]
 	path = typescript-language-server
 	url = git@github.com:typescript-language-server/typescript-language-server.git
+[submodule "omnisharp-roslyn"]
+	path = omnisharp-roslyn
+	url = git@github.com:OmniSharp/omnisharp-roslyn.git
